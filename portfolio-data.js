@@ -2,7 +2,7 @@ export const portfolio = {
   "name": "Luca Cocchia",
   "headline": "hi, i'm luca 👋",
   "title": "full stack developer",
-  "bio": "about me: I have been on Roblox for almost 9 years, but sadly my old account was falsely terminated, lol. I have contributed more than 200M visits, and I am also working on my own steam game. I also know many programming languages and love developing games and web applications.",
+  "bio": "about me: I have been on Roblox for almost 9 years. I have contributed more than 200M visits, and I am also working on my own steam game. I also know many programming languages and love developing games and web applications.",
   "email": "lucacocchia1234@gmail.com",
   "github": "https://github.com/Immabadliar",
   "linkedin": "https://www.linkedin.com/in/luca-cocchia-4391a2425/",
