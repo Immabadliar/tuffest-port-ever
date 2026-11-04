@@ -1,0 +1,1 @@
+{"name":"luca-portfolio","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node server.js","start":"node server.js","check":"node --check main.js && node --check portfolio-data.js && node --check server.js"}}
