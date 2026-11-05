@@ -84,6 +84,34 @@ export const portfolio = {
       "gallery": [{"src": "assets/portfolio-projects/spong_team.png", "label": "View team screenshot"}]
     },
     {
+      "title": "Hydro-Electric Simulator",
+      "role": "Scripter",
+      "description": "Scripting work for a hydroelectric power plant simulator on Roblox.",
+      "url": "https://www.roblox.com/games/18319297875/Hydro-Electric-Simulator",
+      "image": "assets/portfolio-projects/hydro_electric_simulator.png",
+      "alt": "Hydro-Electric Simulator control room and game page",
+      "gallery": [
+        {
+          "src": "assets/portfolio-projects/hydro_electric_group.png",
+          "label": "View developer role"
+        }
+      ]
+    },
+    {
+      "title": "RBWR",
+      "role": "Technical Team",
+      "description": "Worked on internal infrastructure for Realistic Boiling Water Reactor Simulator.",
+      "url": "https://www.roblox.com/games/11765852158/Realistic-Boiling-Water-Reactor-Simulator",
+      "image": "assets/portfolio-projects/rbwr_technical_team.png",
+      "alt": "RBWR Development group showing the Technical Team rank",
+      "gallery": [
+        {
+          "src": "assets/portfolio-projects/rbwr_community.png",
+          "label": "View community screenshot"
+        }
+      ]
+    },
+    {
       "title": "Profile Experience",
       "role": "Web project",
       "description": "Personal profile website inspired by social profile experiences.",
@@ -406,6 +434,18 @@ export const portfolio = {
       "role": "Development Team · Scripting",
       "description": "Web development and scripting.",
       "url": "https://spong.pro"
+    },
+    {
+      "company": "Hydro-Electric Simulator",
+      "role": "Scripter",
+      "description": "Scripting work for the hydroelectric power plant simulator.",
+      "url": "https://www.roblox.com/games/18319297875/Hydro-Electric-Simulator"
+    },
+    {
+      "company": "RBWR",
+      "role": "Technical Team",
+      "description": "Worked on internal infrastructure.",
+      "url": "https://www.roblox.com/games/11765852158/Realistic-Boiling-Water-Reactor-Simulator"
     },
     {
       "company": "Tyree Games",
