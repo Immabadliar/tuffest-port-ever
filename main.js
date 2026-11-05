@@ -1,3 +1,4 @@
+import { mountPresence } from './presence.js';
 import { portfolio as data } from './portfolio-data.js';
 const el = (tag, className, text) => {
   const node = document.createElement(tag);
@@ -58,3 +59,5 @@ for (const item of data.experience) {
   if (item.dates) row.append(el('p', 'dates', item.dates));
   document.querySelector('#experience').append(row);
 }
+
+mountPresence(document.querySelector('#discord-presence'), data);

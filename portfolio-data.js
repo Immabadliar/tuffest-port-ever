@@ -7,6 +7,7 @@ export const portfolio = {
   "github": "https://github.com/Immabadliar",
   "linkedin": "https://www.linkedin.com/in/luca-cocchia-4391a2425/",
   "discord": "uh_luca",
+  "discordUserId": "1021175652243751013",
   "languages": [
     "TypeScript",
     "JavaScript",

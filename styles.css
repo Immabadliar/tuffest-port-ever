@@ -59,3 +59,13 @@ footer{color:var(--muted);font-size:.75rem;text-align:center;margin-top:4rem;pad
 .project-image.spong>img{object-fit:contain;object-position:center;background:#101217}
 
 .website-link{display:inline-block;margin-top:.75rem;font-size:.85rem}
+.presence-card{--presence-color:#858b96;position:relative;isolation:isolate;display:flex;align-items:center;gap:1.25rem;max-width:480px;min-height:118px;margin:2rem auto 0;padding:1.1rem 1.25rem;text-align:left;background:var(--card);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.presence-card[data-status=online]{--presence-color:#43b581}.presence-card[data-status=idle]{--presence-color:#f0b232}.presence-card[data-status=dnd]{--presence-color:#f23f43}
+.presence-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.2;z-index:-1;pointer-events:none}
+.presence-portrait{position:relative;width:72px;height:72px;flex:0 0 72px}
+.presence-initial,.presence-avatar{position:absolute;inset:0;width:72px;height:72px;border-radius:50%;object-fit:cover}
+.presence-initial{display:grid;place-items:center;background:#202631;color:var(--muted);font-size:1.5rem;font-weight:600}
+.presence-decoration{position:absolute;inset:-7px;width:86px;height:86px;pointer-events:none}
+.presence-dot{position:absolute;right:0;bottom:0;width:18px;height:18px;background:var(--presence-color);border:4px solid var(--card);border-radius:50%}
+.presence-content{min-width:0;flex:1}.presence-title{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}.presence-name{font-size:1.15rem;font-weight:700;overflow-wrap:anywhere}.presence-handle{color:var(--muted);font-size:.85rem}.presence-guild{border:1px solid #3b414b;border-radius:4px;padding:0 .35rem;font-size:.7rem}.presence-badge{width:18px;height:18px;object-fit:contain}.presence-status{font-size:.75rem;color:var(--muted);margin-top:.3rem}.presence-custom,.presence-activity{font-size:.8rem;color:var(--text);margin-top:.35rem;overflow-wrap:anywhere}
+@media(max-width:580px){.presence-card{gap:1rem;padding:1rem;max-width:100%}.presence-name{font-size:1.05rem}}
