@@ -112,14 +112,6 @@ export const portfolio = {
       ]
     },
     {
-      "title": "Profile Experience",
-      "role": "Web project",
-      "description": "Personal profile website inspired by social profile experiences.",
-      "url": "https://immabadliar.github.io/my-port/",
-      "image": "assets/portfolio-projects/profile_experience_site.png",
-      "alt": "Profile Experience personal website screenshot"
-    },
-    {
       "title": "Various NDA projects",
       "role": "Confidential development work",
       "description": "Additional private development work across web, software, and games. Details remain confidential."
